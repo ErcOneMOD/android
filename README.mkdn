@@ -4,10 +4,11 @@ Getting Started
 To get started with Android/BlissPop, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the BlissPop trees, use this command:
+To initialize your local repository using the BlissPop trees, use this command: 
+NOTE: THIS IS ONLY FOR pjgraber03's REPO NOT FOR BLISS... ONLY DIFFERENCE IS WILL BUILD USING SABERMOD
 
 
-    repo init -u https://github.com/TeamBliss-LP/android.git -b lp5.0
+    repo init -u https://github.com/pjgraber03/android.git -b lp5.0
 
 Then to sync up:
 
