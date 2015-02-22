@@ -532,7 +532,7 @@
   <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" groups="pdk,linux,mips" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" groups="pdk,linux,x86" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2014" remote="vr" revision="L5" />
+  <!--project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2014" remote="vr" revision="L5" /-->
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs" remote="aosp" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" remote="aosp" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" remote="aosp" />
@@ -586,23 +586,22 @@
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.0" />
   
   <!-- BlissPop Themes -->
-    <project path="packages/themes/DeepDarkness" name="ErcOneMOD/android_packages_themes_DeepDarkness" revision="lp5.0" />
+    <!--project path="packages/themes/DeepDarkness" name="ErcOneMOD/android_packages_themes_DeepDarkness" revision="lp5.0" /-->
     
-  <!-- Saber Mod TOOLCHAINS -->
-<!--  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="RobbieL811/Sabermod" remote="github" revision="arm-eabi-4.8" /> -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="RobbieL811/Sabermod" remote="github" revision="arm-eabi-4.9" />
-  <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="RobbieL811/Sabermod" remote="github" revision="androideabi-4.8" /> -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="RobbieL811/Sabermod" remote="github" revision="androideabi-4.9" />
+   <!-- CUSTOM KERNEL TOOLCHAINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="Team-Validus/LINARO-OTTER" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="Team-Validus/linaro-arm-eabi-4.8" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="Team-Validus/linaro-arm-eabi-4.9" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" name="Team-Validus/linaro-arm-eabi-4.10" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="Team-Validus/arm-eabi-4.7" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="Team-Validus/arm-eabi-4.8" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="Team-Validus/arm-eabi-4.9" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="Team-Validus/arm-eabi-4.10" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="VanirAOSP/linaro_toolchains_2015" remote="github" revision="L5" />
 
-    <!-- CUSTOM KERNEL TOOLCHAINS -->
- <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="LINARO-OTTER" remote="tv" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="linaro-arm-eabi-4.8" remote="tv" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="linaro-arm-eabi-4.9" remote="tv" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" name="linaro-arm-eabi-4.10" remote="tv" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="arm-eabi-4.7" remote="tv" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="arm-eabi-4.8" remote="tv" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="arm-eabi-4.9" remote="tv" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="arm-eabi-4.10" remote="tv" revision="master" /> --> 
-
+  <!-- CUSTOM ROM TOOLCHAINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="Team-Validus/arm-linux-androideabi-4.8" remote="github" revision="lp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="Team-Validus/arm-linux-androideabi-4.9" remote="github" revision="lp" />
+  <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" /-->  
   
 </manifest>
