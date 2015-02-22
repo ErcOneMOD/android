@@ -576,7 +576,7 @@
   <project path="packages/apps/OmniSwitch" name="ErcOneMOD/android_packages_apps_OmniSwitch" revision="lp5.0" />
   <project path="packages/apps/OpenCamera" name="ErcOneMOD/android_packages_apps_OpenCamera" revision="lp5.0" />  
   <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" revision="android-5.0" />
-  <!--project path="device/samsung" name="ErcOneMOD/android_device_samsung_n7000" revision="lp5.0" /-->
+  <project path="device/samsung/n7000" name="android_device_samsung_n7000" revision="lp5.0" />
   <project path="packages/apps/ScreenRecorder" name="ErcOneMOD/android_packages_apps_ScreenRecorder" revision="lp5.0" />       
  
   <!--Vendor Repos-->
