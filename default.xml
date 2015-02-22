@@ -18,6 +18,9 @@
           
   <remote name="ErcOneMOD"
           fetch="https://github.com/ErcOneMOD/" />
+          
+  <remote name="TeamBliss-LP"
+          fetch="https://github.com/TeamBliss-LP/" />
 
   <remote name="TeamBliss-Devices"
           fetch="https://github.com/TeamBliss-Devices/" />
