@@ -583,7 +583,7 @@
   <project path="packages/apps/ScreenRecorder" name="ErcOneMOD/android_packages_apps_ScreenRecorder" revision="lp5.0" />       
  
   <!--Vendor Repos-->
-  <project path="vendor/bliss" name="TeamBliss-LP/android_vendor_bliss" revision="lp5.0" />  
+  <project path="vendor/bliss" name="ErcOneMOD/android_vendor_bliss" revision="lp5.0" />  
   
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-12.0" />
   <!--Additional Repos-->
