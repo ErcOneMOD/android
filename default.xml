@@ -4,7 +4,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-5.0.2_r1" />
+           revision="refs/tags/android-5.0.2_r1" 
+           sync-c="true"
+           sync-j="8" />
 
   <remote  name="github"
            fetch=".."
@@ -14,13 +16,19 @@
            fetch="ssh://git@github.com" />
            
   <remote name="cm"
-          fetch="https://github.com/CyanogenMod/" />
+          fetch="https://github.com/CyanogenMod/" 
+          sync-c="true"
+          sync-j="8" />
           
   <remote name="ErcOneMOD"
-          fetch="https://github.com/ErcOneMOD/" />
+          fetch="https://github.com/ErcOneMOD/" 
+          sync-c="true"
+          sync-j="8" />
           
   <remote name="TeamBliss-LP"
-          fetch="https://github.com/TeamBliss-LP/" />
+          fetch="https://github.com/TeamBliss-LP/" 
+          sync-c="true"
+          sync-j="8" />
 
   <remote name="TeamBliss-Devices"
           fetch="https://github.com/TeamBliss-Devices/" />
@@ -29,13 +37,19 @@
           fetch="https://github.com/TeamBliss/" />
 
   <remote name="tm"
-          fetch="https://github.com/TheMuppets/" />
+          fetch="https://github.com/TheMuppets/" 
+          sync-c="true"
+          sync-j="8" />
           
   <remote  name="tv"
-           fetch="git://github.com/Team-Validus/" />
+           fetch="git://github.com/Team-Validus/" 
+           sync-c="true"
+           sync-j="8" />
           
   <remote name="vr"
-          fetch="https://github.com/VanirAOSP/" />
+          fetch="https://github.com/VanirAOSP/" 
+          sync-c="true"
+          sync-j="8" />
   
   <remote name="lsd"
           fetch="https://github.com/LiquidSmooth-Devices/" />
